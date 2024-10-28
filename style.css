@@ -1,0 +1,22 @@
+.body{
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(red, blue);
+    background-image: radial-gradient(red, blue);
+    border-radius: 50%;
+    background-image: conic-gradient(red 0%, red 20%, blue 20%, blue 40%, yellow 40%, yellow 60%, white 60%, white 70%, chartreuse 70%, chartreuse 80%, tomato 80%, tomato 90%, purple 90%, purple 100%);
+    box-shadow: 0 0 5px red, 0 0 10px green, 0 0 15px blue;    
+}
+
+:root{
+    --myColor: chartreuse;
+    --mybrick: 100px;
+}
+
+body{
+    background-color: var(--myColor);
+}
+h1{
+
+    font-size: var(--mybrick);
+}
